@@ -348,9 +348,7 @@ Ater performing all of the experiments, we started to analyze the results. Below
 
 After analyzing the L1_loss and MS_SSIM score over time, we noticed that the general trend is stable. So in general, there is no improvement during the 500k iterations. 
 
-
-!(Screenshot 2022-04-13 170357.png "image_tooltip")
-
+<img src="Screenshot_2022-04-13_170357.png" width="" alt="alt_text" title="image_tooltip">
 
 
 ### Residual Dense Block
