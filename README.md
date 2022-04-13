@@ -28,12 +28,7 @@ Group 13 | CS4240 Deep Learning | Delft University of Technology
 </table>
 
 
-
-
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image1.png "image_tooltip")
+<img src="1.png" width="" alt="alt_text" title="image_tooltip">
 
 
 ---
@@ -76,10 +71,8 @@ Conventionally there is a tradeoff between low latency networks with few model p
 
 Using this architecture, the only two ways of speeding up the model is to perform faster hardware operations, or reduce the number of operations and reduce the network performance. This paper proposes the architecture parallelism which can be seen in figure 1b. Using this method, one can perform the processes of various scale-spaces in parallel. The authors claim that this allows for an additional 30% speedup without any compromises on the restoration quality. 
 
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<img src="2.png" width="" alt="alt_text" title="image_tooltip">
 
-
-![alt_text](images/image2.png "image_tooltip")
 
 
 Figure 1: Previous vs new architectures
@@ -98,11 +91,8 @@ Figure 2 shows the proposed novel architecture. It performs parallel operations 
 The yellow squares indicate convolutional layers and the red squares indicate channel shuffle and group convolutions. Thus the LSE only has one convolutional layer. The MSE acts like a residual block with two times four convolutional layers. Lastly there is the HSE. Since the HSE operates at the lowest resolution, the computation required to perform operations is low. Therefore, most convolutional layers are located here. It also contains three Residual Dense Blocks which will be discussed in the next section. The outputs of the three encoders are fused together by Fuse Block 1 and Fuse Block 2. 
 
 
+<img src="3.png" width="" alt="alt_text" title="image_tooltip">
 
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image3.png "image_tooltip")
 
 
 Figure 2: Novel architecture
@@ -114,12 +104,8 @@ The residual dense blocks are used as building blocks for the HSE. Residual Dens
 
 The authors of this paper do however propose a modification to the original RDB. They claim that this will provide better restoration quality whilst maintaining the same time-memory complexity. Figure 3 shows the difference in architecture. The authors call their novel proposed Residual Dense Block RDB*.
 
+<img src="4.png" width="" alt="alt_text" title="image_tooltip">
 
-
-<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image4.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image4.png "image_tooltip")
 
 
 Figure 3: Original vs proposed Residual Dense Block (RDB)
@@ -165,6 +151,8 @@ The files started to unzip, but after a while a memory error occurred.  The disk
 ### Google Collaboratory
 
 As mentioned before the dual boot did not have enough storage to unzip the Sony image file (25GB), containing all the images that we needed. So we decided to change to Google Collaboratory. Our Google Drive did also not have enough room left to download the zip and then unzip it, but we decided to buy more storage on Google Drive, because we thought that a lack of memory would be our main issue. After fixing the memory issue, we tried to run the demo.py. We got some minor errors, about missing libraries but nothing major. After we got the demo.py running, we needed to move on to the training of the network. Since we needed a baseline, we tried to first get it training without any changes to the original code. We only changed the path to the location of the Sony images in our drive. Then we got an error, that the value for ta was missing, and we dug further into the code to find out where this parameter was called and what was missing. Comparing it to the common_clasess.py of the SID we saw that the _ta_ was about the gt_amplification and we added the following lines of code.
+
+<img src="5.png" width="" alt="alt_text" title="image_tooltip">
 
 After the addition of these lines, the error disappeared. Then the train.py started to begin with the image downloading, which resulted in a self-killing ^C. We worked out that this self destruction was because Google Collabatory did not have enough RAM to proceed the downloading procedure. This was a major setback, because now we had to look into Google Cloud platform and VM’s which we were definitely not familiar with.
 
