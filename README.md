@@ -294,19 +294,19 @@ Ater performing all of the experiments, we started to analyze the results. Below
    </td>
    <td>
 
-<img src="img_num_0_m_1.0.jpg" width="200" alt="alt_text" title="image_tooltip">
+<img src="img_num_0_m_1.0.jpg" width="400" alt="alt_text" title="image_tooltip">
 
    </td>
   </tr>
   <tr>
    <td>
      
-<img src="Screenshot 2022-04-13 170720.png" width="200" alt="alt_text" title="image_tooltip">
+<img src="Screenshot 2022-04-13 170720.png" width="400" alt="alt_text" title="image_tooltip">
 
    </td>
    <td>
      
-<img src="img_num_0_m_5.0.jpg" width="200" alt="alt_text" title="image_tooltip">
+<img src="img_num_0_m_5.0.jpg" width="400" alt="alt_text" title="image_tooltip">
 
    </td>
   </tr>
@@ -315,7 +315,7 @@ Ater performing all of the experiments, we started to analyze the results. Below
    </td>
    <td>
 
-<img src="img_num_0_m_8.0.jpg" width="200" alt="alt_text" title="image_tooltip">
+<img src="img_num_0_m_8.0.jpg" width="400" alt="alt_text" title="image_tooltip">
 
    </td>
   </tr>
