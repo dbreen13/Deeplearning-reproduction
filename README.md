@@ -349,11 +349,7 @@ Ater performing all of the experiments, we started to analyze the results. Below
 After analyzing the L1_loss and MS_SSIM score over time, we noticed that the general trend is stable. So in general, there is no improvement during the 500k iterations. 
 
 
-
-<p id="gdcalert9" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image9.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert10">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image9.png "image_tooltip")
+!(Screenshot 2022-04-13 170357.png "image_tooltip")
 
 
 
