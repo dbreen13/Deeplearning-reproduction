@@ -374,8 +374,8 @@ Since there is no training, we can also not derive any conclusion with respect t
 ## What have we learned?
 
 Throughout this experience, we have learned several key elements. The most important ones are listed below:
-
-
-
 * Reproducing a deep learning paper is not so straightforward. Even if you are presented with the code, you still can run into a lot of problems before getting everything running.
-* The fact that you can run someone else's code without getting errors does not mean you are doing it right. Therefore, always analyze the results before continuing your research.
+* The fact that you can run someone else's code without getting errors does not mean you are doing it right. Therefore, always analyze the results before continuing your research. 
+* We learned how to work with a Google Cloud VM and how to install Nvidia drivers on it.
+* Do not forget to turn off your Google Cloud VM since Google will keep on billing you even if you are not using your VM. 
+* One of our group members learned that the academic lifestyle was not for him. He is now trying to follow his dreams in the music industry.
