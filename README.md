@@ -315,10 +315,7 @@ Ater performing all of the experiments, we started to analyze the results. Below
   </tr>
   <tr>
    <td>
-
-<p id="gdcalert6" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image6.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert7">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
+     
 <img src="Screenshot 2022-04-13 170720.png" width="" alt="alt_text" title="image_tooltip">
 
    </td>
