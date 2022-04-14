@@ -367,3 +367,6 @@ Throughout this experience, we have learned several key elements. The most impor
 * We learned how to work with a Google Cloud VM and how to install Nvidia drivers on it.
 * Do not forget to turn off your Google Cloud VM since Google will keep on billing you even if you are not using your VM. 
 * One of our group members learned that the academic lifestyle was not for him. He is now trying to follow his dreams in the music industry.
+
+## What did everyone contribute
+We all tried to get the first steps running. Then Demi spent a lot of time on getting the VM/driver working and ran some training runs. After the guys got there VM running Sebastian also ran some code. Guus focussed more on the theoratical background and the blog because he ran out of Google Platform credits fast. 
